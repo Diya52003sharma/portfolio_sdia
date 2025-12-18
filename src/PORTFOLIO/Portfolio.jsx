@@ -19,7 +19,16 @@ export default function Portfolio() {
         <div>
           <h2 className="text-5xl md:text-6xl font-extrabold text-yellow-400 drop-shadow-lg animate-pulse">Hi, I'm Diya Sharma</h2>
           <p className="text-xl mt-4 text-gray-300">Frontend Developer </p>
-          <a href="/resume.pdf" download className="inline-block mt-6 px-6 py-6 bg-yellow-400 text-gray-900 font-semibold rounded-xl shadow-lg hover:bg-yellow-500 transition-all">Download Resume</a>
+         <a
+          href="/resume.pdf"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-6 px-6 py-3 bg-yellow-400 text-black rounded-lg"
+        >
+          Download Resume
+        </a>
+ 
         </div>
       </section>
 

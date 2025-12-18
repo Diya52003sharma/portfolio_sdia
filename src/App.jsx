@@ -18,7 +18,7 @@ const App=()=>
     <>
     {/* <Api/> */}
     {/* <Web/> */}
-    {/* <Todo/> */}
+    <Todo/>
 {/* <Product/>     */}
 {/* <Products/> */}
 {/* <Slider/> */}
